@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "https://lordsudo.github.io/lordsudo-blogsite/"
 languageCode = "en-us"
 title = "My Blog"
 
