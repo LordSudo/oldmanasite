@@ -6,6 +6,7 @@ theme = "mana"
 
 [params]
   description = "Decrypting the labyrinth."
+  disableFingerprinting = true  
 
 [taxonomies]
   tag = "tags"
@@ -29,3 +30,16 @@ theme = "mana"
   name = "About"
   url = "/about/"
   weight = 4
+
+[security]
+  enableInlineShortcodes = true
+
+[security.funcs]
+  getenv = ["^HUGO_"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
