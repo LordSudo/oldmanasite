@@ -1,11 +1,11 @@
 baseURL = "https://lordsudo.github.io/lordsudo-blogsite/"
 languageCode = "en-us"
-title = "My Blog"
+title = "Lord Sudo"
 
 theme = "mana"
 
 [params]
-  description = "Personal blog and notes"
+  description = "Decrypting the labyrinth."
 
 [taxonomies]
   tag = "tags"
